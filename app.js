@@ -1,1 +1,2 @@
-console.log("Myself is 1st App.js");
+var myClass = require("myClass");
+console.log(myClass.calculateBenefit(3));

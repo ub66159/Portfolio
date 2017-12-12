@@ -1,0 +1,17 @@
+class myClass = {
+var name;
+var age;
+constructor(x, y(){
+  this.name = x;
+  this.age = y;
+
+}
+calculateBenefit(factor){
+console.log("factor: " + factor  +"age: " +  age);
+return factor * age;
+
+}
+
+}
+
+module.exports = myClass;
